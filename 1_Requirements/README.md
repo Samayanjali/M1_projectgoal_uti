@@ -21,7 +21,7 @@ Improved functionalities by competitive online ticketing portals.
 ## WHO
 Theatre
 ## WHAT
-A system to book ticket,cancel ticket,view reserverd seats,change price of ticket
+A system to book ticket,cancel ticket,view reserverd seats,change cost of ticket
 ## WHEN
 When user wants to carry out the tasks quickly and this reduces manual work and saves time
 ## WHERE
