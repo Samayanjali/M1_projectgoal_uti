@@ -8,3 +8,31 @@ Time is less consumed.
 This system makes easy to store records of each and every employee.
 This project uses different variables and strings for development.
 Easy to operate and understand.
+# SWOT ANALYSIS
+## STRENGTHNESS
+Simple and Easier to use
+## WEAKNESS
+Need Internet Access
+## OPPORTUNITIES
+Expand Capabilities to cover more events and movies across various cities.
+## THREATS
+Improved functionalities by competitive online ticketing portals.
+# 4W'S and 1'H
+## WHO
+Theatre
+## WHAT
+A system to book ticket,cancel ticket,view reserverd seats,change price of ticket
+## WHEN
+When user wants to carry out the tasks quickly and this reduces manual work and saves time
+## WHERE
+This issue is in all parts of the world in theater where there is a lot of booking,cancellation of tickets happening in all the time
+## HOW
+Create the system which will provide all the functionalities required,the booking of, cancelling of the tickets.
+## HIGH LEVEL REQUIREMENTS
+Login to the system	
+Book ticket	
+Summary of the ticket booked.
+Cancel a ticket.
+User shall be able to view the reserved seats.
+## LOW LEVEL REQUIREMENTS
+If user specifies seat number which is booked ,message appears that the seat is unavaliable. Displaying the summary of the ticket booked
