@@ -17,9 +17,9 @@ Folder             | Description
 ##  Features
 | Feature Id | Feature |
 | -----------|---------|
-|F_01| Login to System | |
-|F_02|Select Movie that is Avaliable |
-|F_03| Purchase a Ticket |
-|F_04| Summary of Ticket |
-|F_05| Cancel a Ticket |
-|F_06| Logout |
+|F_01| Insert Movie | |
+|F_02|View All Movie |
+|F_03| Find Movie |
+|F_04| Book Ticket |
+|F_05| View All Transactions |
+
