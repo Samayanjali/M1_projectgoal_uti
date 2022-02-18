@@ -1,4 +1,8 @@
 # M1_projectgoal_uti
+## code quality score
+![code](https://api.codiga.io/project/31392/score/svg)
+
+
 
 ## Folder Structure
 Folder             | Description
