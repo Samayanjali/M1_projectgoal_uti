@@ -27,16 +27,16 @@ void main()
  	do{
 	printf("\n====================================================================");
 	printf("\n");	
-	printf("\t Moive Ticket booking ");
+	printf("\t ANJALI Movie Ticket booking ");
 	printf("\n");
 	printf("\n====================================================================");
 	
-	printf("\nPress <1> Insert Movie");
-   	printf("\nPress <2> View All Movie");
-	printf("\nPress <3> Find Movie ");
-	printf("\nPress <4> Book Ticket");
-	printf("\nPress <5> View All Transections");
-   	printf("\nPress <0> Exit ");
+	printf("\n <1> Insert Movie");
+   	printf("\n <2> View All Movie");
+	printf("\n <3> Find Movie ");
+	printf("\n <4> Book Ticket");
+	printf("\n <5> View All Transactions");
+   	printf("\n <0> Exit ");
 
    	printf("\nEnter your Choice ::");
    	scanf("%d",&ch); 	
@@ -83,13 +83,13 @@ void insert_details()
 	
 	FILE *fp;
 	struct book b;
-	printf("Enetr movie code :- ");	
+	printf("Enter movie code :- ");	
 	scanf("%s",b.code);
-	printf("Enetr  name :- ");	
+	printf("Enter  name :- ");	
 	scanf("%s",b.name);
-	printf("Enetr Relice Date:- ");	
+	printf("Enter Release Date:- ");	
 	scanf("%s",b.date);
-	printf("Enetr Ticket Price:- ");	
+	printf("Enter Ticket Price:- ");	
 	scanf("%d",&b.cost);
 	
 	fp=fopen("data.txt","a");
