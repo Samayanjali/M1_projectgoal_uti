@@ -29,7 +29,7 @@ This issue is in all parts of the world in theater where there is a lot of booki
 ## HOW
 Create the system which will provide all the functionalities required,the booking of, cancelling of the tickets.
 ## HIGH LEVEL REQUIREMENTS
-Login to the system	
+The system	
 Book ticket	
 Summary of the ticket booked.
 Cancel a ticket.
