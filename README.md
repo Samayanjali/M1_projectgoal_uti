@@ -1,6 +1,7 @@
 # M1_projectgoal_uti
 |codiga code quality score |codiga code grade |codacy grade |Static check |
 |---|---|---|---|
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a17c90bca2bc487ebeb4c69bb7418860)](https://app.codacy.com/gh/Samayanjali/M1_projectgoal_uti?utm_source=github.com&utm_medium=referral&utm_content=Samayanjali/M1_projectgoal_uti&utm_campaign=Badge_Grade_Settings)
 |![code](https://api.codiga.io/project/31392/score/svg) |![code](https://api.codiga.io/project/31392/status/svg) | |[![Cppcheck](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml) |
 ## code grade 
 
