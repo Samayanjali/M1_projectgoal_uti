@@ -1,7 +1,7 @@
 # M1_projectgoal_uti
 |codiga code quality score |codiga code grade |codacy grade |Static check |
 |---|---|---|---|
-|![code](https://api.codiga.io/project/31392/score/svg) |![code](https://api.codiga.io/project/31392/status/svg) | |[![Cppcheck](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml) |
+|![code](https://api.codiga.io/project/31392/score/svg) |![code](https://api.codiga.io/project/31392/status/svg) |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f402da96e5ae415d890f92f91c2769c0)](https://www.codacy.com/gh/Samayanjali/M1_projectgoal_uti/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Samayanjali/M1_projectgoal_uti&amp;utm_campaign=Badge_Grade) |[![Cppcheck](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml) |
 ## code grade 
 
 
