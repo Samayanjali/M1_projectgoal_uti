@@ -1,8 +1,9 @@
 # M1_projectgoal_uti
-## code quality score
-![code](https://api.codiga.io/project/31392/score/svg)
+|codiga code quality score |codiga code grade |codacy grade |Static check |
+|---|---|---|---|
+|![code](https://api.codiga.io/project/31392/score/svg) |![code](https://api.codiga.io/project/31392/status/svg) | |[![Cppcheck](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Samayanjali/M1_projectgoal_uti/actions/workflows/c-cpp.yml) |
 ## code grade 
-![code](https://api.codiga.io/project/31392/status/svg)
+
 
 
 
