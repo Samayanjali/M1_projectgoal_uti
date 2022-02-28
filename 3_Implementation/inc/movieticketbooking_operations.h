@@ -1,3 +1,13 @@
+/**
+ * @file movieticketbooking_operations.h
+ * @author samayanjali
+ * @brief Header file for movieticketbooking application 
+ *
+ */
+
+#ifndef __MOVIETICKETBOOKING_OPERATIONS_H__
+#define __MOVIETICKETBOOKING_OPERATIONS_H__
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -290,3 +300,7 @@ void old_record()
 
 
 }
+
+
+
+#endif
