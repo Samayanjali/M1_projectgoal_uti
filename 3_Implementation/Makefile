@@ -69,9 +69,11 @@
 # 	$(DEL) $(DEP)
 
 
-PROJ_NAME = Movie Ticket Booking System
+PROJ_NAME = mtbs
 SRC = main.c\
-src/bookTicket.c
+src/view.c
+
+
 
 TEST_SRC =test/test.c\
 unity/unity.c
@@ -91,6 +93,9 @@ endif
 
 build:
 	gcc $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	# mkdir build
+$(BUILD_DIR):
+	mkdir $(BUILD_DIR)
 
 run: build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -98,6 +103,11 @@ run: build
 static_analysis:
 	cppcheck --enable=all $(SRC)
 
+# clean:
+# 	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
+# 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+# 	make clean -C doc
+# 	rmdir build doc/html
 test: $(SRC) $(TEST_SRC)
 	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	./$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
@@ -113,7 +123,11 @@ coverage:${PROJECT_NAME}
 
 doc:
 	make -C doc
-
+# build1:
+# 	mkdir build1
 
 clean:
 	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+	make clean -C doc
+	rmdir build doc/html

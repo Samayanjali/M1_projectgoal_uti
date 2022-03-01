@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"movieticketbooking.h"
+#include "ticket.h"
 
 struct book
 {
@@ -147,27 +147,27 @@ void find() //find details
 	  system("clear");
 
 }
-void viewAll()
-{
-	char ch;
-	FILE *fp;
+// void viewAll()
+// {
+// 	char ch;
+// 	FILE *fp;
 
-	fp = fopen("data.txt","r");
-	if(fp == NULL)
-	{
-		printf("file does not found !");
-		exit(1);
+// 	fp = fopen("data.txt","r");
+// 	if(fp == NULL)
+// 	{
+// 		printf("file does not found !");
+// 		exit(1);
 
-	}
-	else
-	{	
-		system("clear");
-		while( ( ch = fgetc(fp) ) != EOF )
-      		printf("%c",ch);
+// 	}
+// 	else
+// 	{	
+// 		system("clear");
+// 		while( ( ch = fgetc(fp) ) != EOF )
+//       		printf("%c",ch);
 		
-	}
-	fclose(fp);
-}
+// 	}
+// 	fclose(fp);
+// }
 //for ticket booking 
 void book_ticket()
 {
